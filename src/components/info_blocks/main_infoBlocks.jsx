@@ -7,6 +7,7 @@ function MainInfoBlocks() {
       <InformationBlock
         img="https://duckduckgo.com/assets/add-to-browser/cppm/laptop.svg"
         title="Privacidad para Chrome"
+        // eslint-disable-next-line max-len
         text="Navega como siempre y nosotros nos encargamos del resto. Te ofrecemos buscador, bloqueador de rastreadores y mejora de encriptación todo en una "
         link="https://duckduckgo.com/app"
         text2="extensión de Chrome."
@@ -15,6 +16,7 @@ function MainInfoBlocks() {
       <InformationBlock
         img="https://duckduckgo.com/assets/home/landing/icons/search.svg"
         title="Motor de Búsqueda de Privacidad"
+        // eslint-disable-next-line max-len
         text="Busca de forma privada con nuestra app o extension, añade búsqueda web privada a tu navegador preferido o busca en "
         link="https://duckduckgo.com/"
         text2="duckduckgo.com."
@@ -23,6 +25,7 @@ function MainInfoBlocks() {
       <InformationBlock
         img="https://duckduckgo.com/assets/add-to-browser/cppm/mobile.svg"
         title="Navegador Primario"
+        // eslint-disable-next-line max-len
         text="Nuestro navegador privado para móviles viene equipado con nuestro motor de búsqueda, bloqueador de rastreadores, mejora de encriptación y más. Disponible para "
         link="https://duckduckgo.com/app"
         text2="iOS & Android"

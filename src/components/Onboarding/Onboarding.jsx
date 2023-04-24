@@ -15,12 +15,9 @@ function Onboarding() {
       </h1>
       <p>
         Nuestra politica de privacidad es simple: No colectamos
-        <br />
-        o compartimos ninguna informacion personal tuya.
+        <br />o compartimos ninguna informacion personal tuya.
       </p>
-      <button type="submit">
-        Instalar DuckDuckGo
-      </button>
+      <button type="submit">Instalar DuckDuckGo</button>
     </div>
   )
 }

@@ -3,7 +3,15 @@ import './infoBlocks.css'
 
 function InformationBlock({
   // eslint-disable-next-line react/prop-types
-  img, title, text, link, text2,
+  img,
+  // eslint-disable-next-line react/prop-types
+  title,
+  // eslint-disable-next-line react/prop-types
+  text,
+  // eslint-disable-next-line react/prop-types
+  link,
+  // eslint-disable-next-line react/prop-types
+  text2,
 }) {
   return (
     <div className="info_Blocks">
@@ -11,10 +19,7 @@ function InformationBlock({
       <h3>{title}</h3>
       <p>
         {text}
-        <a href={link}>
-          {' '}
-          {text2}
-        </a>
+        <a href={link}> {text2}</a>
       </p>
     </div>
   )
